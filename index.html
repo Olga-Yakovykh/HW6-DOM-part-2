@@ -9,19 +9,21 @@
 </head>
 <body>
        
-        <select name="selectedElement" class="selectedElement">
+        <select name="selectedElement" id="selectedElement">
             <option value="square" id="square">square</option>
             <option value="rectangle" id="rectangle" >rectangle</option>
             <option value="circle" id="circle" >circle</option>
         </select>
-    
-        <input  onclick="myFunction()" type="text" id="myInp" value = "black">
+
+        <label>Color:</label>
+
+        <input type="text" id="myInp">
+        
         <button id="btn">Click</button>
-        <div></div>
-        <div id="resultSquare" class="resultSquare"></div>
-        <div id="resultRectangle" class="resultRectangle"></div>
-        <div id="resultCircle" class="resultCircle"></div>
-    
+
+        <div id="wrapper"></div>
+
+   
        
 
 

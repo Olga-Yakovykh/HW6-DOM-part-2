@@ -1,34 +1,30 @@
-.show {
-    display: block;
+div {
+    margin-top: 30px;
 }
-
-.hidden {
-    display: none;
-}
-.resultSquare {
+.square {
     width: 100px;
     height: 100px;
     background: black;
     margin: 10px 0;
+    display: block;
   
 }
 
-.resultRectangle {
+.rectangle {
     width: 200px;
     height: 100px;
     background: black;
     margin-bottom: 10px;
-   
+    display: block;
 }
 
-.resultCircle {
+.circle {
     width: 100px;
     height: 100px;
     background: black;
     border-radius: 50%;
     margin-bottom: 10px;
- 
- 
+    display: block;
 } 
 
 
